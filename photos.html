@@ -1,1 +1,59 @@
-
+<!DOCTYPE html>
+<html>
+<title>booglemiester</title>
+<head>
+<a href="home.html"></a>
+<style> 
+@font-face {
+    font-family: geosans-light;
+    src: url("GeosansLight.woff");
+}
+input.MyButton {
+    width: 120px;
+    padding: 15px;
+    cursor: pointer;
+    font-family: geosans-light;
+    font-weight: bold;
+    font-size: 150%;
+    background: #ffffff;
+    opacity:0.5;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+input.MyButton:hover {
+    color: #000000;
+    background: #ffffff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+body {
+  background-image: url("foggy_mountains.jpg");
+  background-color: #cccccc;
+  font-family: 'geosans-light';
+}
+</style>
+ 
+</head>
+<body>
+  <form>
+    <input class="MyButton" 
+           type="button" 
+           value="Github" 
+           onclick="window.location.href='https://github.com/andreabogle?tab=repositories'"
+           style="position:fixed; left:140px;"
+    />
+    <input class="MyButton" 
+          type="button" 
+          value="Home" 
+          onclick="window.location.href='andreabogle.me/home.html'"
+   />
+   <input class="MyButton" 
+          type="button" 
+          value="Photos" 
+          onclick="window.location.href='andreabogle.me/photos.html'"
+          style="position:fixed;left:260px;"
+   />
+  </form>
+</body>
+</html>

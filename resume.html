@@ -1,1 +1,49 @@
-<object width="400" height="400" data="helloworld.swf"></object>
+<!DOCTYPE html>
+<html>
+<title>booglemiester</title>
+<a href="home.html"></a>
+<head>
+<style> 
+@font-face {
+    font-family: geosans-light;
+    src: url("GeosansLight.woff");
+}
+input.MyButton {
+    width: 120px;
+    padding: 15px;
+    cursor: pointer;
+    font-family: geosans-light;
+    font-weight: bold;
+    font-size: 150%;
+    background: #ffffff;
+    opacity:0.5;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+input.MyButton:hover {
+    color: #000000;
+    background: #ffffff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+body {
+  background-image: url("foggy_mountains.jpg");
+  background-color: #cccccc;
+  font-family: 'geosans-light';
+}
+</style>
+ 
+</head>
+<body>
+  <form>
+    <input class="MyButton" 
+          type="button" 
+          value="Home" 
+          onclick="window.location.href='home.html'"
+   />
+  </form>
+  <object width="400" height="400" data="helloworld.swf"></object>
+</body>
+</html> 
+

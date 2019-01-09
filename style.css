@@ -54,7 +54,7 @@ header {
 .header-text .flex-container {
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .header-text h1 {

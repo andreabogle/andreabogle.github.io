@@ -1,38 +1,50 @@
 @font-face {
-  font-family: "Geosans Light";
-  src: url("GeosansLight.woff");
+    font-family: "Geosans Light";
+    src: url("../fonts/GeosansLight.woff");
 }
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
- }
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     background-color: #fff;
-    color: #333;
+    color: #fff;
     font-family: "Geosans Light", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+
 .flex-container {
     display: flex;
 }
+
 header {
-    background-image: url("foggy_mountains.jpg");
+    background-image: url("../img/foggy_mountains.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+
+.main-nav {
+    padding: 25px 0 19px 50px;
+}
+
+.main-nav li {
+    display: inline-block;
 }
 
 .main-nav li a {
     text-decoration: none;
     margin-right: 25px;
     opacity: 0.5;
-    color: #fff;
-    display: inline;
+    color: #000000;
+    display: block;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     transition: border-bottom-color .2s, color .2s;
 }
